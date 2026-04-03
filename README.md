@@ -2,7 +2,7 @@
 The zip file contains code for Longitudinal Count Data analysis, with or without missing data. 
 It includes two main folders, Simulations and Real Data Analysis, along with the required R scripts and TMB files.
 
-1. Simulations
+## 1. Simulations
 --------------
 
 The Simulations folder includes the TMB (Template Model Builder) codes and data used 
@@ -47,7 +47,7 @@ Each subfolder contains scripts that:
 - Save outputs for performance evaluation
 
 
-2. Real Data Analysis
+## 2. Real Data Analysis
 --------------
 R scripts: 
 - AIDS_Real_Data 
