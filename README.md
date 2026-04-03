@@ -11,8 +11,9 @@ for the simulation studies presented in the paper:
 Improving Inference for Longitudinal Count Data with or without Missing Data 
 through Model Selection by Ayesha Madhushani Rathnayake, Candemir Cigsar, and Nan Zheng.
 
-It contains two subfolders for different types of simulation studies: Complete Data and Missing Data. 
-Each subfolder includes R scripts and TMB files implementing the corresponding models.
+It contains two subfolders for different types of simulation studies: Complete Data 
+and Missing Data. Each subfolder includes R scripts and TMB files implementing 
+the corresponding models.
 
 1.1 Complete Data Simulations
 
@@ -66,15 +67,16 @@ or the appropriate compiler for your OS, and finally install the required packag
 How to Run the Code
 -------------------
 For Simulations:
-1. Navigate to the desired subfolder under Simulations/Simulation Study – Complete Data 
-   or Simulations/Simulation Study – Missing Data.
+1. Navigate to the desired subfolder under Simulations/Complete Data Simulations 
+   or Simulations/Missing Data Simulations.
 2. Compile the corresponding C++ file using TMB::compile() in R.
 3. Run the simulation script (e.g., Simulation_Poisson_AR1_Mixed_Effect_Complete.R), which will:
    - Generate the simulated data
    - Fit the model
    - Save the results
 
-For Case Studies (Real Data):
+For Real Data Analysis:
 1. Load the AIDS dataset from the JM R package.
 2. Compile the corresponding TMB model file as instructed in the R script (e.g., AR1_real_data.cpp).
-3. Run the main R script Real_Data.R to fit the model to the real-world data.
+3. Run the main R script AIDS_Real_Data.R to fit the model to the real-world data.
+
