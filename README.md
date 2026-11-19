@@ -2,7 +2,7 @@
 This ZIP file contains the code for longitudinal count data analysis using Poisson and negative binomial mixed-effects models under complete data and missing data settings. It includes two main folders, Simulations and Real Data Analysis, along with the required R scripts and Template Model Builder (TMB) C++ files.
 
 
-1.0 Simulations 
+1 Simulations 
 --------------
 
 The Simulations folder contains the R scripts and TMB C++ files used for the simulation studies presented in the paper:
@@ -90,7 +90,7 @@ Each subfolder contains scripts that:
 - Save the results for performance evaluation.
 
 
-2.0 Real Data Analysis
+2 Real Data Analysis
 ---------------------
 
 This folder contains the R scripts and TMB C++ files used for the analysis of the epileptic seizure count dataset presented in the paper.
